@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Jordanne Chan</title>
-    <link>/tags/</link>
+    <link>http://jordanne.ca/blog/tags/</link>
     <description>Recent content in Tags on Jordanne Chan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Jordanne Chan 2019</copyright>
     <lastBuildDate>Sun, 06 Jan 2019 22:34:48 -0500</lastBuildDate>
     
-	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://jordanne.ca/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Jordanne Stuff</title>
-      <link>/tags/jordanne-stuff/</link>
+      <link>http://jordanne.ca/blog/tags/jordanne-stuff/</link>
       <pubDate>Sun, 06 Jan 2019 22:34:48 -0500</pubDate>
       
-      <guid>/tags/jordanne-stuff/</guid>
+      <guid>http://jordanne.ca/blog/tags/jordanne-stuff/</guid>
       <description></description>
     </item>
     

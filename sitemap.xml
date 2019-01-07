@@ -3,40 +3,40 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/posts/screaming/</loc>
+    <loc>http://jordanne.ca/blog/posts/screaming/</loc>
     <lastmod>2019-01-06T22:34:48-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/about/</loc>
+    <loc>http://jordanne.ca/blog/about/</loc>
     <lastmod>2019-01-05T00:00:00-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>http://jordanne.ca/blog/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/</loc>
+    <loc>http://jordanne.ca/blog/</loc>
     <lastmod>2019-01-06T22:34:48-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/jordanne-stuff/</loc>
+    <loc>http://jordanne.ca/blog/tags/jordanne-stuff/</loc>
     <lastmod>2019-01-06T22:34:48-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/posts/</loc>
+    <loc>http://jordanne.ca/blog/posts/</loc>
     <lastmod>2019-01-06T22:34:48-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>http://jordanne.ca/blog/tags/</loc>
     <lastmod>2019-01-06T22:34:48-05:00</lastmod>
     <priority>0</priority>
   </url>

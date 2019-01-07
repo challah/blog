@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Jordanne Chan</title>
-    <link>/posts/</link>
+    <link>http://jordanne.ca/blog/posts/</link>
     <description>Recent content in Posts on Jordanne Chan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Jordanne Chan 2019</copyright>
     <lastBuildDate>Sun, 06 Jan 2019 22:34:48 -0500</lastBuildDate>
     
-	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://jordanne.ca/blog/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Screaming</title>
-      <link>/posts/screaming/</link>
+      <link>http://jordanne.ca/blog/posts/screaming/</link>
       <pubDate>Sun, 06 Jan 2019 22:34:48 -0500</pubDate>
       
-      <guid>/posts/screaming/</guid>
+      <guid>http://jordanne.ca/blog/posts/screaming/</guid>
       <description>&lt;h2 id=&#34;ahhhhhhhhh&#34;&gt;AHHHHHHHHH&lt;/h2&gt;
 
 &lt;p&gt;AHHHHHHHHHHHHHHHHHHHHH
