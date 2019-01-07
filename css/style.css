@@ -23,7 +23,6 @@
 */
 .p-title__link {
     color: #ccc;
-    font-family: "Major Mono Display", "Inconsolata", monospace;
 }
 
 .p-subtitle{
@@ -405,7 +404,8 @@ img {
 
 .p-title {
     margin: 0 0 20px 0;
-    font-size: 4.4rem
+    font-size: 4.4rem;
+    font-family: "Major Mono Display", "Inconsolata", monospace;
 }
 
 .p-subtitle {
