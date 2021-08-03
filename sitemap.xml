@@ -2,14 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://jordanne.ca/blog/tags/dini/</loc>
+    <lastmod>2021-08-03T09:25:02-04:00</lastmod>
+  </url><url>
+    <loc>http://jordanne.ca/blog/2021/08/dinis-here/</loc>
+    <lastmod>2021-08-03T09:25:02-04:00</lastmod>
+  </url><url>
     <loc>http://jordanne.ca/blog/</loc>
-    <lastmod>2021-08-02T20:09:18-04:00</lastmod>
+    <lastmod>2021-08-03T09:25:02-04:00</lastmod>
   </url><url>
     <loc>http://jordanne.ca/blog/posts/</loc>
-    <lastmod>2021-08-02T20:09:18-04:00</lastmod>
+    <lastmod>2021-08-03T09:25:02-04:00</lastmod>
   </url><url>
     <loc>http://jordanne.ca/blog/tags/</loc>
-    <lastmod>2021-08-02T20:09:18-04:00</lastmod>
+    <lastmod>2021-08-03T09:25:02-04:00</lastmod>
   </url><url>
     <loc>http://jordanne.ca/blog/2021/08/yuannish/</loc>
     <lastmod>2021-08-02T20:09:18-04:00</lastmod>
