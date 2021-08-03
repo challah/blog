@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Jordanne</title>
+    <link>http://jordanne.ca/blog/categories/</link>
+    <description>Recent content in Categories on Jordanne</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 01 Aug 2021 14:06:47 -0400</lastBuildDate><atom:link href="http://jordanne.ca/blog/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>p5.js</title>
+      <link>http://jordanne.ca/blog/categories/p5.js/</link>
+      <pubDate>Sun, 01 Aug 2021 14:06:47 -0400</pubDate>
+      
+      <guid>http://jordanne.ca/blog/categories/p5.js/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
