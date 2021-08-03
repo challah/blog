@@ -1,14 +1,10 @@
 /* CONFIG */
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600&display=swap");
 * {
   box-sizing: border-box; }
 
-[hidden] {
-  display: none !important; }
-
 body {
-  font-family: "DM Sans", Helvetica, sans-serif;
-  background-color: #fefefe;
   margin: 0;
   padding: 0; }
 
@@ -22,6 +18,28 @@ a {
   a:visited {
     color: #ee2299; }
 
+ul {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: "DM Sans", Helvetica, sans-serif;
+  background-color: #fefefe; }
+
+/* LAYOUT - SCREEN */
+@media screen and (min-width: 900px) {
+  .container {
+    grid-template-columns: 3fr 1fr; }
+  .sidebar {
+    grid-row: 2;
+    grid-column: 2; }
+  .footer {
+    grid-row: 3;
+    grid-column: 1; }
+  .article-content {
+    margin-left: 4rem; } }
+
+/* LAYOUT - MOBILE/ALL */
 .container {
   max-width: 900px;
   width: 95%;
@@ -53,17 +71,14 @@ a {
 .article-content {
   margin-left: 1rem; }
 
-@media screen and (min-width: 900px) {
-  .container {
-    grid-template-columns: 3fr 1fr; }
-  .sidebar {
-    grid-row: 2;
-    grid-column: 2; }
-  .footer {
-    grid-row: 3;
-    grid-column: 1; }
-  .article-content {
-    margin-left: 4rem; } }
+figure {
+  max-width: 500px; }
+  figure figcaption {
+    color: #bbbbbb;
+    font-style: italic; }
+
+figure img {
+  max-width: 100%; }
 
 .article-list {
   margin-bottom: 4rem; }
@@ -73,9 +88,10 @@ a {
     .article-list .article-info h2 {
       margin: 0; }
   .article-list .short-date {
+    text-transform: uppercase;
     padding-right: 10px;
     order: -1;
-    font: "Space Grotesk", Helvetica, sans-serif;
+    font-family: "Space Grotesk", Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
     align-items: flex-end; }
@@ -83,20 +99,11 @@ a {
       font-weight: 600;
       font-size: 2rem; }
 
-code {
-  max-width: 100%; }
-
-article img {
-  max-width: 100%; }
-
-ul {
-  margin: 0;
-  padding: 0; }
-
 .pagination {
   margin-top: 50px;
   text-align: center; }
   .pagination .pagination-number {
+    color: #ee2299;
     font-weight: 600; }
   .pagination a {
     color: #ee2299; }

@@ -9,20 +9,24 @@
     <lastBuildDate>Mon, 02 Aug 2021 20:09:18 -0400</lastBuildDate><atom:link href="http://jordanne.ca/blog/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Yuannish</title>
-      <link>http://jordanne.ca/blog/posts/yuannish/</link>
+      <link>http://jordanne.ca/blog/2021/08/yuannish/</link>
       <pubDate>Mon, 02 Aug 2021 20:09:18 -0400</pubDate>
       
-      <guid>http://jordanne.ca/blog/posts/yuannish/</guid>
-      <description>&lt;p&gt;There&amp;rsquo;s always someone taking care of me. It&amp;rsquo;s her!
-&lt;img src=&#34;20210715_Yuan.jpg&#34; alt=&#34;Yuanyuan&#34;&gt;&lt;/p&gt;</description>
+      <guid>http://jordanne.ca/blog/2021/08/yuannish/</guid>
+      <description>&lt;p&gt;There&amp;rsquo;s always someone taking care of me. It&amp;rsquo;s her!&lt;/p&gt;
+&lt;figure&gt;&lt;img src=&#34;http://jordanne.ca/blogimages/20210715_Yuan.jpg&#34;
+         alt=&#34;Yuanyuan&#34;/&gt;&lt;figcaption&gt;
+            &lt;p&gt;Yuanyuan watching over me&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;</description>
     </item>
     
     <item>
       <title>Nested for Loop of Tiles p5.js</title>
-      <link>http://jordanne.ca/blog/posts/for-loop/</link>
+      <link>http://jordanne.ca/blog/2021/08/nested-for-loop-of-tiles-p5.js/</link>
       <pubDate>Sun, 01 Aug 2021 14:06:47 -0400</pubDate>
       
-      <guid>http://jordanne.ca/blog/posts/for-loop/</guid>
+      <guid>http://jordanne.ca/blog/2021/08/nested-for-loop-of-tiles-p5.js/</guid>
       <description>&lt;h2 id=&#34;ellipsemodecenter&#34;&gt;ellipseMode(CENTER)&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;color:#815ba4&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#06b6ef&#34;&gt;tileWidth&lt;/span&gt; &lt;span style=&#34;color:#5bc4bf&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#f99b15&#34;&gt;50&lt;/span&gt;;
 
@@ -40,10 +44,10 @@
     
     <item>
       <title>Hugo</title>
-      <link>http://jordanne.ca/blog/posts/hugo/</link>
+      <link>http://jordanne.ca/blog/2021/08/hugo/</link>
       <pubDate>Sun, 01 Aug 2021 13:58:00 -0400</pubDate>
       
-      <guid>http://jordanne.ca/blog/posts/hugo/</guid>
+      <guid>http://jordanne.ca/blog/2021/08/hugo/</guid>
       <description>&lt;h2 id=&#34;hugo-command-line&#34;&gt;Hugo command line&lt;/h2&gt;
 &lt;h3 id=&#34;create-a-new-site&#34;&gt;create a new site&lt;/h3&gt;
 &lt;p&gt;&lt;code&gt;hugo new site hamstersite&lt;/code&gt;&lt;/p&gt;
@@ -52,18 +56,7 @@
 &lt;code&gt;git clone [url of the theme]&lt;/code&gt;&lt;/p&gt;
 &lt;h4 id=&#34;configuring-configtoml-to-the-new-theme&#34;&gt;configuring config.toml to the new theme&lt;/h4&gt;
 &lt;p&gt;&lt;code&gt;theme = &amp;quot;hamstery-theme&amp;quot;&lt;/code&gt;
-There are probably some theme-specific options too. Check the toml config file in the example site file and copy it over.&lt;/p&gt;
-&lt;h3 id=&#34;adding-new-posts&#34;&gt;adding new posts&lt;/h3&gt;
-&lt;p&gt;&lt;code&gt;hugo new posts/my-first-post.md&lt;/code&gt;
-This will create a new document with the post front matter at the top, based on the archetypes in the template.
-&lt;a href=&#34;https://gohugo.io/content-management/front-matter/&#34;&gt;Hugo front matter docs&lt;/a&gt;&lt;/p&gt;
-&lt;h3 id=&#34;start-the-hugo-server&#34;&gt;start the hugo server&lt;/h3&gt;
-&lt;p&gt;&lt;code&gt;hugo server -D&lt;/code&gt; with drafts enabled or
-&lt;code&gt;hugo server&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;Site can now be previewed at http://localhost:1313/ !&lt;/p&gt;
-&lt;h3 id=&#34;build-your-pages&#34;&gt;build your pages&lt;/h3&gt;
-&lt;p&gt;&lt;code&gt;hugo&lt;/code&gt;
-or &lt;code&gt;hugo -D&lt;/code&gt; drafts enabled&lt;/p&gt;</description>
+There are probably some theme-specific options too. Check the toml config file in the example site file and copy it over.&lt;/p&gt;</description>
     </item>
     
   </channel>

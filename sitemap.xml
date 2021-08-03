@@ -11,7 +11,7 @@
     <loc>http://jordanne.ca/blog/tags/</loc>
     <lastmod>2021-08-02T20:09:18-04:00</lastmod>
   </url><url>
-    <loc>http://jordanne.ca/blog/posts/yuannish/</loc>
+    <loc>http://jordanne.ca/blog/2021/08/yuannish/</loc>
     <lastmod>2021-08-02T20:09:18-04:00</lastmod>
   </url><url>
     <loc>http://jordanne.ca/blog/tags/yuanyuan/</loc>
@@ -20,15 +20,17 @@
     <loc>http://jordanne.ca/blog/categories/</loc>
     <lastmod>2021-08-01T14:06:47-04:00</lastmod>
   </url><url>
-    <loc>http://jordanne.ca/blog/posts/for-loop/</loc>
+    <loc>http://jordanne.ca/blog/2021/08/nested-for-loop-of-tiles-p5.js/</loc>
     <lastmod>2021-08-01T14:06:47-04:00</lastmod>
   </url><url>
     <loc>http://jordanne.ca/blog/categories/p5.js/</loc>
     <lastmod>2021-08-01T14:06:47-04:00</lastmod>
   </url><url>
-    <loc>http://jordanne.ca/blog/posts/hugo/</loc>
+    <loc>http://jordanne.ca/blog/2021/08/hugo/</loc>
     <lastmod>2021-08-01T13:58:00-04:00</lastmod>
   </url><url>
     <loc>http://jordanne.ca/blog/about/</loc>
+  </url><url>
+    <loc>http://jordanne.ca/blog/test/</loc>
   </url>
 </urlset>
