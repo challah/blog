@@ -8,7 +8,7 @@
     
     <title>
       
-        Hugo | Jordanne
+        Posts | Jordanne
       
     </title>
     
@@ -19,7 +19,7 @@
       type="text/css"
       media="all"
     />
-    
+    <link rel="alternate" type="application/rss+xml" href="/blog/posts/index.xml" title="Jordanne">
   </head>
   <body>
     <div class="container">
@@ -41,17 +41,25 @@
 </header>
 
       
-  <main class="main">
-    <article class="article-single">
-      <div class="article-info">
-        <h1 class="post-title"><a href="/blog/2021/08/hugo/">Hugo</a></h1>
-        <time class="date full-date" datetime="2021-08-01 13:58:00 -0400 EDT"
-          >Aug 01, 2021.</time
-        >
-        
-      </div>
-      <div class="article-content">
-        <h2 id="hugo-command-line">Hugo command line</h2>
+<main>
+  
+  <div>
+    
+    <h2>Posts</h2>
+     
+  </div>
+    <article class="article-list">
+  <div class="article-info">
+    <h2 class="post-title"><a href="http://jordanne.ca/blog/2021/08/hugo/">Hugo</a></h2>
+    <time class="date short-date" datetime="2021-08-01 13:58:00 -0400 EDT"
+      ><span class="month">Aug</span
+      ><span class="year">’21</span></time
+    >
+    
+  </div>
+
+  <div class="article-content">
+    <h2 id="hugo-command-line">Hugo command line</h2>
 <h3 id="create-a-new-site">create a new site</h3>
 <p><code>hugo new site hamstersite</code></p>
 <h3 id="adding-a-theme-from-hugo-themes">adding a theme from Hugo Themes</h3>
@@ -60,22 +68,22 @@
 <h4 id="configuring-configtoml-to-the-new-theme">configuring config.toml to the new theme</h4>
 <p><code>theme = &quot;hamstery-theme&quot;</code>
 There are probably some theme-specific options too. Check the toml config file in the example site file and copy it over.</p>
-<h3 id="adding-new-posts">adding new posts</h3>
-<p><code>hugo new posts/my-first-post.md</code>
-This will create a new document with the post front matter at the top, based on the archetypes in the template.
-<a href="https://gohugo.io/content-management/front-matter/">Hugo front matter docs</a></p>
-<h3 id="start-the-hugo-server">start the hugo server</h3>
-<p><code>hugo server -D</code> with drafts enabled or
-<code>hugo server</code></p>
-<p>Site can now be previewed at http://localhost:1313/ !</p>
-<h3 id="build-your-pages">build your pages</h3>
-<p><code>hugo</code>
-or <code>hugo -D</code> drafts enabled</p>
-      </div>
-      
-    </article>
-  </main>
-  <aside class="sidebar">
+    
+      <a href="http://jordanne.ca/blog/2021/08/hugo/">Read more...</a>
+    
+  </div>
+</article>
+  <div class="pagination">
+  
+    <a href="/blog/posts/" class="pagination-control">← Next</a>
+  
+  <span class="pagination-number">2</span> of
+  <span class="pagination-number">2</span>
+  
+</div>
+
+</main>
+<aside class="sidebar">
   <div class="latest-posts">
     <h3>Latest Posts</h3>
     <ul>
@@ -93,8 +101,7 @@ or <code>hugo -D</code> drafts enabled</p>
     </ul>
   </div>
 </aside>
-
-
+ 
       <footer class="footer">
   <p>
     &copy; 2021 <a href="http://jordanne.ca/blog">Jordanne</a>
