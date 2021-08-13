@@ -6,11 +6,10 @@ let theme = currentTheme
 
 if (currentTheme == "dark") {
   document.body.classList.toggle("dark-theme");
-  changeLabel();
+  btn.checked = false;
 } else if (currentTheme == "light") {
   document.body.classList.toggle("light-theme");
-  changeLabel();
-  
+  btn.checked = true;
 }
 
 btn.addEventListener("click", function () {
@@ -34,12 +33,11 @@ theme = "light"
 });
 
 function changeLabel() {
+  console.log("invoked ; w ;")
   console.log(theme)
   if (theme == "dark") {
     switchLabel.innerHTML = "Turn on the lights"
-    btn.checked = true;
   } else {
     switchLabel.innerHTML = "Turn off the lights"
-    btn.checked = false;
 }
 }
