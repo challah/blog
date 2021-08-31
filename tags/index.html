@@ -56,66 +56,118 @@
     <h2>Tags</h2>
      
   </div>
-    <article class="article-list">
-  <div class="article-info">
+    <article class="window">
+  <div class="title-bar">
+    <div class="title-bar-text">
+      <time class="date short-date" datetime="2021-08-04 16:13:59 -0400 EDT"
+      >Aug ’21</time
+    >
+    </div>
+    <div class="title-bar-controls">
+      <button aria-label="Minimize"></button>
+      <button aria-label="Maximize"></button>
+      <button aria-label="Close"></button>
+    </div>
+  </div>
+  <div class="article-list">
+
     <h2 class="post-title"><a href="http://jordanne.ca/blog/tags/scratch/">Scratch</a></h2>
-    <time class="date short-date" datetime="2021-08-04 16:13:59 -0400 EDT"
-      ><span class="month">Aug</span
-      ><span class="year">’21</span></time
-    >
     
-  </div>
+    
 
   <div class="article-content">
     
     
   </div>
-</article>
-  <article class="article-list">
-  <div class="article-info">
+  
+</div>
+  </article>
+
+
+  <article class="window">
+  <div class="title-bar">
+    <div class="title-bar-text">
+      <time class="date short-date" datetime="2021-08-03 09:25:02 -0400 EDT"
+      >Aug ’21</time
+    >
+    </div>
+    <div class="title-bar-controls">
+      <button aria-label="Minimize"></button>
+      <button aria-label="Maximize"></button>
+      <button aria-label="Close"></button>
+    </div>
+  </div>
+  <div class="article-list">
+
     <h2 class="post-title"><a href="http://jordanne.ca/blog/tags/dini/">Dini</a></h2>
-    <time class="date short-date" datetime="2021-08-03 09:25:02 -0400 EDT"
-      ><span class="month">Aug</span
-      ><span class="year">’21</span></time
-    >
     
-  </div>
+    
 
   <div class="article-content">
     
     
   </div>
-</article>
-  <article class="article-list">
-  <div class="article-info">
+  
+</div>
+  </article>
+
+
+  <article class="window">
+  <div class="title-bar">
+    <div class="title-bar-text">
+      <time class="date short-date" datetime="2021-08-02 20:09:18 -0400 EDT"
+      >Aug ’21</time
+    >
+    </div>
+    <div class="title-bar-controls">
+      <button aria-label="Minimize"></button>
+      <button aria-label="Maximize"></button>
+      <button aria-label="Close"></button>
+    </div>
+  </div>
+  <div class="article-list">
+
     <h2 class="post-title"><a href="http://jordanne.ca/blog/tags/yuanyuan/">Yuanyuan</a></h2>
-    <time class="date short-date" datetime="2021-08-02 20:09:18 -0400 EDT"
-      ><span class="month">Aug</span
-      ><span class="year">’21</span></time
-    >
     
-  </div>
+    
 
   <div class="article-content">
     
     
   </div>
-</article>
-  <article class="article-list">
-  <div class="article-info">
+  
+</div>
+  </article>
+
+
+  <article class="window">
+  <div class="title-bar">
+    <div class="title-bar-text">
+      <time class="date short-date" datetime="2021-08-01 14:06:47 -0400 EDT"
+      >Aug ’21</time
+    >
+    </div>
+    <div class="title-bar-controls">
+      <button aria-label="Minimize"></button>
+      <button aria-label="Maximize"></button>
+      <button aria-label="Close"></button>
+    </div>
+  </div>
+  <div class="article-list">
+
     <h2 class="post-title"><a href="http://jordanne.ca/blog/tags/p5/">p5</a></h2>
-    <time class="date short-date" datetime="2021-08-01 14:06:47 -0400 EDT"
-      ><span class="month">Aug</span
-      ><span class="year">’21</span></time
-    >
     
-  </div>
+    
 
   <div class="article-content">
     
     
   </div>
-</article>
+  
+</div>
+  </article>
+
+
   <div class="pagination">
   <span class="pagination-number">1</span> of
   <span class="pagination-number">1</span>
@@ -125,7 +177,7 @@
 <aside class="sidebar">
   <div class="latest-posts">
     <h3>Latest Posts</h3>
-    <ul>
+    <ul class="tree-view">
       
         <li><a href="/blog/posts/scratchy/">Scratchy</a></li>
       
@@ -141,6 +193,44 @@
   </div>
 </aside>
  
+<div id="head">
+  <div id="cont">
+    <a href="#home">
+    <div id="dini-wrap">
+      
+      <img src="/images/yuberry_pixel2.gif">
+      </div></a>
+    </div>
+</div>
+<script>
+  window.onbeforeunload = function() {
+    window.scrollTo(0, 0);
+  };
+  
+  let prevScrollpos = window.pageYOffset;
+  let show = "no";
+  window.onscroll = function() {
+    let currentScrollPos = window.pageYOffset;
+    if (prevScrollpos > currentScrollPos) {
+      
+      document.getElementById("head").style.bottom = "-110px";
+      if (show === "yes") {
+        show = "no";
+      }
+    }
+    prevScrollpos = currentScrollPos;
+    let bottom = document.body.offsetHeight;
+    let almostBottom = bottom * 0.8;
+    if (window.innerHeight + window.scrollY >= almostBottom) {
+    }
+    if (window.innerHeight + window.scrollY >= bottom * 0.97) {
+      document.getElementById("head").style.bottom = "-5px";
+      
+      show = "yes";
+    }
+  };
+  </script>
+
       <footer class="footer">
   <p>
     &copy; 2021 <a href="http://jordanne.ca/blog">Jordanne</a>
