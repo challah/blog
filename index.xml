@@ -6,7 +6,36 @@
     <description>Recent content in Home on Jordanne</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 04 Aug 2021 16:13:59 -0400</lastBuildDate><atom:link href="http://jordanne.ca/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 31 Aug 2021 21:20:32 -0400</lastBuildDate><atom:link href="http://jordanne.ca/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>1998</title>
+      <link>http://jordanne.ca/blog/posts/1998/</link>
+      <pubDate>Tue, 31 Aug 2021 21:20:32 -0400</pubDate>
+      
+      <guid>http://jordanne.ca/blog/posts/1998/</guid>
+      <description>&lt;figure&gt;&lt;img src=&#34;http://jordanne.ca/blog/images/win98.png&#34;
+         alt=&#34;Windows 98 desktop&#34;/&gt;
+&lt;/figure&gt;
+&lt;p&gt;I&amp;rsquo;ve added new CSS, adding this Windows 1998 windowed look to each post. I&amp;rsquo;ve always been really drawn to websites that look like desktops. I&amp;rsquo;ll make a true version of one of those someday.&lt;/p&gt;
+&lt;p&gt;Yeah, I also always have intense nostalgia for funner times on Web 1.0: flashy Flash websites, gratuitous (sparkly) gifs, cOlOuReD sCroLL BARS, autoplaying midi music, table layouts created by slicing and dicing images in Photoshop, &lt;code&gt;&amp;lt;marquee&amp;gt;&lt;/code&gt;, rainbow cursors, image maps and more! I want to bring these things back, but I mean, I also need to consider the reasons why they&amp;rsquo;re gone in the first place. I&amp;rsquo;d like to re-purpose these ideas for today&amp;rsquo;s web!&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve had a lot of fun building this site and learning Hugo! I really enjoy writing SCSS. That is to say, if it&amp;rsquo;s only my CSS and only I have to worry about it and know where things are. I totally get the sadness of the cascade and specificity wars, though.&lt;/p&gt;
+&lt;h3 id=&#34;things-to-add-or-change-to-this-site&#34;&gt;Things to add or change to this site&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Gratuitous task bar at the bottom of the page with a start menu! And clock.&lt;/li&gt;
+&lt;li&gt;Webneko in the colours of Dini and Yuanyuan via &lt;a href=&#34;https://adrianotiger.github.io/web-esheep/&#34;&gt;web eSheep&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Tree-style archive links in sidebar&lt;/li&gt;
+&lt;li&gt;Custom cursor?&lt;/li&gt;
+&lt;li&gt;Investigate font rendering options to better preserve crispy pixels. Continuing on my quest to say no to anti-aliasing.&lt;/li&gt;
+&lt;li&gt;Change the taskbar window buttons from button elements to spans - as they serve no functional purpose&lt;/li&gt;
+&lt;li&gt;Flash of dark mode even if you select light mode&lt;/li&gt;
+&lt;li&gt;Mobile layout kind of works, but you have to zoom out&lt;/li&gt;
+&lt;li&gt;Dini&amp;rsquo;s head pop&amp;hellip; works, but the Firefox console told me I shouldn&amp;rsquo;t be using the scroll events that I am&lt;/li&gt;
+&lt;li&gt;Host on &lt;a href=&#34;https://neocities.org/browse&#34;&gt;Neocities&lt;/a&gt;? Seems very nice there. I&amp;rsquo;m not sure how I feel about my random thoughts being open source, even just the build files. HMMM&amp;hellip;&lt;/li&gt;
+&lt;li&gt;Get a https certificate! Go!&lt;/li&gt;
+&lt;li&gt;Maybe an option to remove all this CSS and JS heh heh&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
     <item>
       <title>Scratchy</title>
       <link>http://jordanne.ca/blog/posts/scratchy/</link>

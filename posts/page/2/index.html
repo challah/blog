@@ -12,7 +12,7 @@
     
       <meta name="author" content="Jordanne Chan" />
     
-    <title>p5 | Jordanne
+    <title>Posts | Jordanne
     </title>
     <link
     rel="stylesheet"
@@ -53,13 +53,13 @@
   
   <div>
     
-    <h2>p5</h2>
+    <h2>Posts</h2>
      
   </div>
     <article class="window">
   <div class="title-bar">
     <div class="title-bar-text">
-      <time class="date short-date" datetime="2021-08-01 14:06:47 -0400 EDT"
+      <time class="date short-date" datetime="2021-08-01 13:58:00 -0400 EDT"
       >Aug ’21</time
     >
     </div>
@@ -71,45 +71,34 @@
   </div>
   <div class="article-list">
 
-    <h2 class="post-title"><a href="http://jordanne.ca/blog/posts/for-loop/">Nested for Loop of Tiles p5.js</a></h2>
+    <h2 class="post-title"><a href="http://jordanne.ca/blog/posts/hugo/">Hugo</a></h2>
     
-    
-      <div class="tags">
-        <ul class="tags-list">
-          
-            <li>
-              <a href="/blog/tags/p5" class="p5">p5</a>
-            </li>
-          
-        </ul>
-      </div>
     
 
   <div class="article-content">
-    <p>Syntax highlighting test.</p>
-<h2 id="ellipsemodecenter">ellipseMode(CENTER)</h2>
-<div class="highlight"><pre tabindex="0" style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#815ba4">let</span> <span style="color:#06b6ef">tileWidth</span> <span style="color:#5bc4bf">=</span> <span style="color:#f99b15">50</span>;
-
-<span style="color:#815ba4">for</span> (<span style="color:#815ba4">let</span> <span style="color:#06b6ef">j</span> <span style="color:#5bc4bf">=</span> <span style="color:#f99b15">0</span>; <span style="color:#06b6ef">j</span> <span style="color:#5bc4bf">&lt;</span> <span style="color:#06b6ef">height</span> <span style="color:#5bc4bf">/</span> <span style="color:#06b6ef">tileWidth</span>; <span style="color:#06b6ef">j</span><span style="color:#5bc4bf">++</span>) {
-  <span style="color:#815ba4">for</span> (<span style="color:#815ba4">let</span> <span style="color:#06b6ef">i</span> <span style="color:#5bc4bf">=</span> <span style="color:#f99b15">0</span>; <span style="color:#06b6ef">i</span> <span style="color:#5bc4bf">&lt;</span> <span style="color:#06b6ef">width</span> <span style="color:#5bc4bf">/</span> <span style="color:#06b6ef">tileWidth</span>; <span style="color:#06b6ef">i</span><span style="color:#5bc4bf">++</span>) {
-    <span style="color:#06b6ef">circle</span>(
-      <span style="color:#06b6ef">i</span> <span style="color:#5bc4bf">*</span> <span style="color:#06b6ef">tileWidth</span> <span style="color:#5bc4bf">+</span> <span style="color:#06b6ef">tileWidth</span> <span style="color:#5bc4bf">/</span> <span style="color:#f99b15">2</span>,
-      <span style="color:#06b6ef">j</span> <span style="color:#5bc4bf">*</span> <span style="color:#06b6ef">tileWidth</span> <span style="color:#5bc4bf">+</span> <span style="color:#06b6ef">tileWidth</span> <span style="color:#5bc4bf">/</span> <span style="color:#f99b15">2</span>,
-      <span style="color:#06b6ef">tileWidth</span>
-    );
-  }
-}
-</code></pre></div>
+    <h2 id="hugo-command-line">Hugo command line</h2>
+<h3 id="create-a-new-site">create a new site</h3>
+<p><code>hugo new site hamstersite</code></p>
+<h3 id="adding-a-theme-from-hugo-themes">adding a theme from Hugo Themes</h3>
+<p><code>cd hamstersite/themes</code>
+<code>git clone [url of the theme]</code></p>
+<h4 id="configuring-configtoml-to-the-new-theme">configuring config.toml to the new theme</h4>
+<p><code>theme = &quot;hamstery-theme&quot;</code>
+There are probably some theme-specific options too. Check the toml config file in the example site file and copy it over.</p>
     
   </div>
   
+      <a href="http://jordanne.ca/blog/posts/hugo/"><button class="read-more">Read more</button></a>
+    
 </div>
   </article>
 
 
   <div class="pagination">
-  <span class="pagination-number">1</span> of
-  <span class="pagination-number">1</span>
+    <a href="/blog/posts/" class="pagination-control">← Next</a>
+  
+  <span class="pagination-number">2</span> of
+  <span class="pagination-number">2</span>
 </div>
 
 </main>

@@ -12,7 +12,7 @@
     
       <meta name="author" content="Jordanne Chan" />
     
-    <title>p5 | Jordanne
+    <title>web | Jordanne
     </title>
     <link
     rel="stylesheet"
@@ -53,13 +53,13 @@
   
   <div>
     
-    <h2>p5</h2>
+    <h2>web</h2>
      
   </div>
     <article class="window">
   <div class="title-bar">
     <div class="title-bar-text">
-      <time class="date short-date" datetime="2021-08-01 14:06:47 -0400 EDT"
+      <time class="date short-date" datetime="2021-08-31 21:20:32 -0400 EDT"
       >Aug ’21</time
     >
     </div>
@@ -71,14 +71,14 @@
   </div>
   <div class="article-list">
 
-    <h2 class="post-title"><a href="http://jordanne.ca/blog/posts/for-loop/">Nested for Loop of Tiles p5.js</a></h2>
+    <h2 class="post-title"><a href="http://jordanne.ca/blog/posts/1998/">1998</a></h2>
     
     
       <div class="tags">
         <ul class="tags-list">
           
             <li>
-              <a href="/blog/tags/p5" class="p5">p5</a>
+              <a href="/blog/tags/web" class="web">web</a>
             </li>
           
         </ul>
@@ -86,20 +86,27 @@
     
 
   <div class="article-content">
-    <p>Syntax highlighting test.</p>
-<h2 id="ellipsemodecenter">ellipseMode(CENTER)</h2>
-<div class="highlight"><pre tabindex="0" style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#815ba4">let</span> <span style="color:#06b6ef">tileWidth</span> <span style="color:#5bc4bf">=</span> <span style="color:#f99b15">50</span>;
-
-<span style="color:#815ba4">for</span> (<span style="color:#815ba4">let</span> <span style="color:#06b6ef">j</span> <span style="color:#5bc4bf">=</span> <span style="color:#f99b15">0</span>; <span style="color:#06b6ef">j</span> <span style="color:#5bc4bf">&lt;</span> <span style="color:#06b6ef">height</span> <span style="color:#5bc4bf">/</span> <span style="color:#06b6ef">tileWidth</span>; <span style="color:#06b6ef">j</span><span style="color:#5bc4bf">++</span>) {
-  <span style="color:#815ba4">for</span> (<span style="color:#815ba4">let</span> <span style="color:#06b6ef">i</span> <span style="color:#5bc4bf">=</span> <span style="color:#f99b15">0</span>; <span style="color:#06b6ef">i</span> <span style="color:#5bc4bf">&lt;</span> <span style="color:#06b6ef">width</span> <span style="color:#5bc4bf">/</span> <span style="color:#06b6ef">tileWidth</span>; <span style="color:#06b6ef">i</span><span style="color:#5bc4bf">++</span>) {
-    <span style="color:#06b6ef">circle</span>(
-      <span style="color:#06b6ef">i</span> <span style="color:#5bc4bf">*</span> <span style="color:#06b6ef">tileWidth</span> <span style="color:#5bc4bf">+</span> <span style="color:#06b6ef">tileWidth</span> <span style="color:#5bc4bf">/</span> <span style="color:#f99b15">2</span>,
-      <span style="color:#06b6ef">j</span> <span style="color:#5bc4bf">*</span> <span style="color:#06b6ef">tileWidth</span> <span style="color:#5bc4bf">+</span> <span style="color:#06b6ef">tileWidth</span> <span style="color:#5bc4bf">/</span> <span style="color:#f99b15">2</span>,
-      <span style="color:#06b6ef">tileWidth</span>
-    );
-  }
-}
-</code></pre></div>
+    <figure><img src="http://jordanne.ca/blog/images/win98.png"
+         alt="Windows 98 desktop"/>
+</figure>
+<p>I&rsquo;ve added new CSS, adding this Windows 1998 windowed look to each post. I&rsquo;ve always been really drawn to websites that look like desktops. I&rsquo;ll make a true version of one of those someday.</p>
+<p>Yeah, I also always have intense nostalgia for funner times on Web 1.0: flashy Flash websites, gratuitous (sparkly) gifs, cOlOuReD sCroLL BARS, autoplaying midi music, table layouts created by slicing and dicing images in Photoshop, <code>&lt;marquee&gt;</code>, rainbow cursors, image maps and more! I want to bring these things back, but I mean, I also need to consider the reasons why they&rsquo;re gone in the first place. I&rsquo;d like to re-purpose these ideas for today&rsquo;s web!</p>
+<p>I&rsquo;ve had a lot of fun building this site and learning Hugo! I really enjoy writing SCSS. That is to say, if it&rsquo;s only my CSS and only I have to worry about it and know where things are. I totally get the sadness of the cascade and specificity wars, though.</p>
+<h3 id="things-to-add-or-change-to-this-site">Things to add or change to this site</h3>
+<ul>
+<li>Gratuitous task bar at the bottom of the page with a start menu! And clock.</li>
+<li>Webneko in the colours of Dini and Yuanyuan via <a href="https://adrianotiger.github.io/web-esheep/">web eSheep</a></li>
+<li>Tree-style archive links in sidebar</li>
+<li>Custom cursor?</li>
+<li>Investigate font rendering options to better preserve crispy pixels. Continuing on my quest to say no to anti-aliasing.</li>
+<li>Change the taskbar window buttons from button elements to spans - as they serve no functional purpose</li>
+<li>Flash of dark mode even if you select light mode</li>
+<li>Mobile layout kind of works, but you have to zoom out</li>
+<li>Dini&rsquo;s head pop&hellip; works, but the Firefox console told me I shouldn&rsquo;t be using the scroll events that I am</li>
+<li>Host on <a href="https://neocities.org/browse">Neocities</a>? Seems very nice there. I&rsquo;m not sure how I feel about my random thoughts being open source, even just the build files. HMMM&hellip;</li>
+<li>Get a https certificate! Go!</li>
+<li>Maybe an option to remove all this CSS and JS heh heh&hellip;</li>
+</ul>
     
   </div>
   

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+	<meta name="generator" content="Hugo 0.87.0" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" type="image/png"
@@ -12,7 +13,8 @@
     
       <meta name="author" content="Jordanne Chan" />
     
-    <title>Hugo | Jordanne
+    <title>Jordanne
+      
     </title>
     <link
     rel="stylesheet"
@@ -25,7 +27,7 @@
     <div class="container">
       <header class="header">
   
-    <div id="logo"><a href="http://jordanne.ca/blog">Jordanne</a></div>
+    <h1 id="logo"><a href="http://jordanne.ca/blog">Jordanne</a></h1>
   
   
     <nav class="site-nav">
@@ -49,17 +51,31 @@
 </header>
 
       
-  <main class="main">
-    <article class="article-single">
-      <div class="article-info">
-        <h1 class="post-title"><a href="/blog/posts/hugo/">Hugo</a></h1>
-        <time class="date full-date" datetime="2021-08-01 13:58:00 -0400 EDT"
-          >Aug 01, 2021.</time
-        >
-        
-      </div>
-      <div class="article-content">
-        <h2 id="hugo-command-line">Hugo command line</h2>
+  <main>
+    <section class="intro"></section>
+    
+    
+      <article class="window">
+  <div class="title-bar">
+    <div class="title-bar-text">
+      <time class="date short-date" datetime="2021-08-01 13:58:00 -0400 EDT"
+      >Aug ’21</time
+    >
+    </div>
+    <div class="title-bar-controls">
+      <button aria-label="Minimize"></button>
+      <button aria-label="Maximize"></button>
+      <button aria-label="Close"></button>
+    </div>
+  </div>
+  <div class="article-list">
+
+    <h2 class="post-title"><a href="http://jordanne.ca/blog/posts/hugo/">Hugo</a></h2>
+    
+    
+
+  <div class="article-content">
+    <h2 id="hugo-command-line">Hugo command line</h2>
 <h3 id="create-a-new-site">create a new site</h3>
 <p><code>hugo new site hamstersite</code></p>
 <h3 id="adding-a-theme-from-hugo-themes">adding a theme from Hugo Themes</h3>
@@ -68,20 +84,24 @@
 <h4 id="configuring-configtoml-to-the-new-theme">configuring config.toml to the new theme</h4>
 <p><code>theme = &quot;hamstery-theme&quot;</code>
 There are probably some theme-specific options too. Check the toml config file in the example site file and copy it over.</p>
-<h3 id="adding-new-posts">adding new posts</h3>
-<p><code>hugo new posts/my-first-post.md</code>
-This will create a new document with the post front matter at the top, based on the archetypes in the template.
-<a href="https://gohugo.io/content-management/front-matter/">Hugo front matter docs</a></p>
-<h3 id="start-the-hugo-server">start the hugo server</h3>
-<p><code>hugo server -D</code> with drafts enabled or
-<code>hugo server</code></p>
-<p>Site can now be previewed at http://localhost:1313/ !</p>
-<h3 id="build-your-pages">build your pages</h3>
-<p><code>hugo</code>
-or <code>hugo -D</code> drafts enabled</p>
-      </div>
-      
-    </article>
+    
+  </div>
+  
+      <a href="http://jordanne.ca/blog/posts/hugo/"><button class="read-more">Read more</button></a>
+    
+</div>
+  </article>
+
+
+
+    
+    <div class="pagination">
+    <a href="/blog/" class="pagination-control">← Next</a>
+  
+  <span class="pagination-number">2</span> of
+  <span class="pagination-number">2</span>
+</div>
+
   </main>
   <aside class="sidebar">
   <div class="latest-posts">
@@ -102,6 +122,42 @@ or <code>hugo -D</code> drafts enabled</p>
   </div>
 </aside>
 
+  <div id="head">
+    <div id="cont">
+      <a href="#home">
+      <div id="dini-wrap">
+        <img src="http://jordanne.ca/blog/yuberry_pixel2.gif" class="pixel">
+        </div></a>
+      </div>
+  </div>
+  <script>
+    window.onbeforeunload = function() {
+      window.scrollTo(0, 0);
+    };
+    
+    let prevScrollpos = window.pageYOffset;
+    let show = "no";
+    window.onscroll = function() {
+      let currentScrollPos = window.pageYOffset;
+      if (prevScrollpos > currentScrollPos) {
+        
+        document.getElementById("head").style.bottom = "-110px";
+        if (show === "yes") {
+          show = "no";
+        }
+      }
+      prevScrollpos = currentScrollPos;
+      let bottom = document.body.offsetHeight;
+      let almostBottom = bottom * 0.8;
+      if (window.innerHeight + window.scrollY >= almostBottom) {
+      }
+      if (window.innerHeight + window.scrollY >= bottom * 0.97) {
+        document.getElementById("head").style.bottom = "-5px";
+        
+        show = "yes";
+      }
+    };
+    </script>
 
       <footer class="footer">
   <p>

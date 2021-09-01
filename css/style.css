@@ -67,11 +67,10 @@ body {
   display: -ms-grid;
   display: grid;
   grid-gap: 1rem;
-  -ms-grid-rows: 100px fit-content 100px;
-      grid-template-rows: 100px -webkit-fit-content 100px;
-      grid-template-rows: 100px fit-content 100px;
   -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
+  -ms-grid-rows: 100px 1fr 100px 100px;
+      grid-template-rows: 100px 1fr 100px 100px;
   min-height: 100vh;
 }
 
@@ -136,6 +135,15 @@ article.window {
   margin-bottom: 2rem;
 }
 
+.pixel {
+  -ms-interpolation-mode: nearest-neighbor;
+      image-rendering: -webkit-optimize-contrast;
+      image-rendering: -o-pixelated;
+      image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+}
+
 .article-list {
   padding-bottom: 1rem;
   /*
@@ -186,6 +194,8 @@ article.window {
   .container {
     -ms-grid-columns: 3fr 1fr;
         grid-template-columns: 3fr 1fr;
+    -ms-grid-rows: 100px 1fr 100px;
+        grid-template-rows: 100px 1fr 100px;
   }
   .sidebar {
     -ms-grid-row: 2;
@@ -222,6 +232,7 @@ article.window {
 
 .site-nav a {
   text-decoration: none;
+  border-bottom: 3px solid #ee2299;
   color: #ee2299;
   -webkit-transition: background 0.2s linear;
   transition: background 0.2s linear;
@@ -252,16 +263,55 @@ article.window {
 }
 
 .tags ul.tags-list li a {
-  font-family: "Pixelated MS Sans Serif", Arial;
   background-color: #f251af;
-  color: var(--background);
+  -webkit-box-shadow: -2px 0 0 #f251af, 2px 0 0 #f251af, 0 2px 0 #f251af, 0 -2px 0 #f251af;
+          box-shadow: -2px 0 0 #f251af, 2px 0 0 #f251af, 0 2px 0 #f251af, 0 -2px 0 #f251af;
+  color: #222222;
   padding: 4px 5px;
-  -webkit-transition: background 0.2s linear;
-  transition: background 0.2s linear;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
 }
 
 .tags ul.tags-list li a:hover {
-  background-color: #f9b0db;
+  background-color: #f581c5;
+  -webkit-box-shadow: -2px 0 0 #f581c5, 2px 0 0 #f581c5, 0 2px 0 #f581c5, 0 -2px 0 #f581c5, 4px 2px 0 rgba(0, 0, 0, 0.15), 2px 4px 0 rgba(0, 0, 0, 0.15);
+          box-shadow: -2px 0 0 #f581c5, 2px 0 0 #f581c5, 0 2px 0 #f581c5, 0 -2px 0 #f581c5, 4px 2px 0 rgba(0, 0, 0, 0.15), 2px 4px 0 rgba(0, 0, 0, 0.15);
+}
+
+.tags ul.tags-list li a:active {
+  background-color: #ee2299;
+}
+
+.tags ul.tags-list li a.yuanyuan {
+  background-color: #44ee33;
+  -webkit-box-shadow: -2px 0 0 #44ee33, 2px 0 0 #44ee33, 0 2px 0 #44ee33, 0 -2px 0 #44ee33;
+          box-shadow: -2px 0 0 #44ee33, 2px 0 0 #44ee33, 0 2px 0 #44ee33, 0 -2px 0 #44ee33;
+}
+
+.tags ul.tags-list li a.yuanyuan:hover {
+  background-color: #6ff262;
+  -webkit-box-shadow: -2px 0 0 #6ff262, 2px 0 0 #6ff262, 0 2px 0 #6ff262, 0 -2px 0 #6ff262, 4px 2px 0 rgba(0, 0, 0, 0.15), 2px 4px 0 rgba(0, 0, 0, 0.15);
+          box-shadow: -2px 0 0 #6ff262, 2px 0 0 #6ff262, 0 2px 0 #6ff262, 0 -2px 0 #6ff262, 4px 2px 0 rgba(0, 0, 0, 0.15), 2px 4px 0 rgba(0, 0, 0, 0.15);
+}
+
+.tags ul.tags-list li a.yuanyuan:active {
+  background-color: #25dc12;
+}
+
+.tags ul.tags-list li a.dini {
+  background-color: #ffdd22;
+  -webkit-box-shadow: -2px 0 0 #ffdd22, 2px 0 0 #ffdd22, 0 2px 0 #ffdd22, 0 -2px 0 #ffdd22;
+          box-shadow: -2px 0 0 #ffdd22, 2px 0 0 #ffdd22, 0 2px 0 #ffdd22, 0 -2px 0 #ffdd22;
+}
+
+.tags ul.tags-list li a.dini:hover {
+  background-color: #ffe555;
+  -webkit-box-shadow: -2px 0 0 #ffe555, 2px 0 0 #ffe555, 0 2px 0 #ffe555, 0 -2px 0 #ffe555, 4px 2px 0 rgba(0, 0, 0, 0.15), 2px 4px 0 rgba(0, 0, 0, 0.15);
+          box-shadow: -2px 0 0 #ffe555, 2px 0 0 #ffe555, 0 2px 0 #ffe555, 0 -2px 0 #ffe555, 4px 2px 0 rgba(0, 0, 0, 0.15), 2px 4px 0 rgba(0, 0, 0, 0.15);
+}
+
+.tags ul.tags-list li a.dini:active {
+  background-color: #eec900;
 }
 
 .article-single .tags {
@@ -287,23 +337,6 @@ article.window {
   src: url(../fonts/Nintendo-DS-BIOS.ttf);
 }
 
-/*! 98.css v0.1.17 - https://github.com/jdan/98.css */
-@font-face {
-  font-family: "Pixelated MS Sans Serif";
-  src: url(../fonts/ms_sans_serif.woff) format("woff");
-  src: url(../fonts/ms_sans_serif.woff2) format("woff2");
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Pixelated MS Sans Serif";
-  src: url(../fonts/ms_sans_serif_bold.woff) format("woff");
-  src: url(../fonts/ms_sans_serif_bold.woff2) format("woff2");
-  font-weight: 700;
-  font-style: normal;
-}
-
 .title-bar,
 button,
 input,
@@ -311,11 +344,12 @@ label,
 option,
 select,
 textarea,
-ul.tree-view {
-  font-family: "Pixelated MS Sans Serif", Arial;
+ul.tree-view,
+.tags a {
   font-smooth: never;
   -webkit-font-smoothing: none;
-  font-size: 14px;
+  font-family: "Nintendo DS BIOS", Arial;
+  font-size: 24px;
 }
 
 .article-list > .article-content {
@@ -587,7 +621,7 @@ ul.tree-view details[open] > summary:before {
 
 /* Global styles */
 p {
-  margin: 0 0 1rem 0;
+  margin: 0.5rem;
   line-height: 1.5;
   font-size: 1rem;
 }
@@ -646,6 +680,7 @@ small {
 
 .article-content a:link, .article-content a:visited {
   text-decoration: underline;
+  font-weight: bold;
 }
 
 h2.post-title {
@@ -668,12 +703,16 @@ h2.post-title {
   color: var(--background);
 }
 
-.article-content > h2,
-.article-content h3,
-.article-content h4,
-.article-content h5,
-.article-content h6 {
-  margin-left: -1rem;
+.article-content > p {
+  margin-left: 1rem;
+}
+
+.article-content ul {
+  margin-left: 2rem;
+}
+
+.article-content ul li {
+  line-height: 1.5rem;
 }
 
 hr {
@@ -687,31 +726,6 @@ code {
   font-family: "Mono Lisa", "Fira Code", monospace;
 }
 
-/*
-.header {
-  background-image: url(../assets/dini_peak_resized.png);
-  background-repeat: no-repeat;
-  background-position: right bottom;
-  background-size: 30%;
-  image-rendering: pixelated;
-}
-
-.footer {
-  background-image: url(../assets/yuannish_daughter.png);
-  background-repeat: no-repeat;
-  background-position: 90% bottom;
-  background-size: contain;
-  image-rendering: pixelated;
-}
-*/
-/*
-.article-list {
-  border-radius: 10px;
-  padding: 10px 50px;
-  margin: 50px 10px;
-  border: 2px solid $main;
-  box-shadow: 3px 3px $main;
-}*/
 .post-title {
   font-size: 3.5rem;
   line-height: 0.95;
@@ -846,9 +860,9 @@ WONDERFUL HEAD */
   bottom: -40px;
   width: 250px;
   -ms-interpolation-mode: nearest-neighbor;
+      image-rendering: -webkit-optimize-contrast;
       image-rendering: -o-pixelated;
       image-rendering: pixelated;
   image-rendering: crisp-edges;
   image-rendering: -moz-crisp-edges;
-  image-rendering: -webkit-optimize-contrast;
 }

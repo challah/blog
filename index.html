@@ -58,6 +58,66 @@
       <article class="window">
   <div class="title-bar">
     <div class="title-bar-text">
+      <time class="date short-date" datetime="2021-08-31 21:20:32 -0400 EDT"
+      >Aug ’21</time
+    >
+    </div>
+    <div class="title-bar-controls">
+      <button aria-label="Minimize"></button>
+      <button aria-label="Maximize"></button>
+      <button aria-label="Close"></button>
+    </div>
+  </div>
+  <div class="article-list">
+
+    <h2 class="post-title"><a href="http://jordanne.ca/blog/posts/1998/">1998</a></h2>
+    
+    
+      <div class="tags">
+        <ul class="tags-list">
+          
+            <li>
+              <a href="/blog/tags/web" class="web">web</a>
+            </li>
+          
+        </ul>
+      </div>
+    
+
+  <div class="article-content">
+    <figure><img src="http://jordanne.ca/blog/images/win98.png"
+         alt="Windows 98 desktop"/>
+</figure>
+<p>I&rsquo;ve added new CSS, adding this Windows 1998 windowed look to each post. I&rsquo;ve always been really drawn to websites that look like desktops. I&rsquo;ll make a true version of one of those someday.</p>
+<p>Yeah, I also always have intense nostalgia for funner times on Web 1.0: flashy Flash websites, gratuitous (sparkly) gifs, cOlOuReD sCroLL BARS, autoplaying midi music, table layouts created by slicing and dicing images in Photoshop, <code>&lt;marquee&gt;</code>, rainbow cursors, image maps and more! I want to bring these things back, but I mean, I also need to consider the reasons why they&rsquo;re gone in the first place. I&rsquo;d like to re-purpose these ideas for today&rsquo;s web!</p>
+<p>I&rsquo;ve had a lot of fun building this site and learning Hugo! I really enjoy writing SCSS. That is to say, if it&rsquo;s only my CSS and only I have to worry about it and know where things are. I totally get the sadness of the cascade and specificity wars, though.</p>
+<h3 id="things-to-add-or-change-to-this-site">Things to add or change to this site</h3>
+<ul>
+<li>Gratuitous task bar at the bottom of the page with a start menu! And clock.</li>
+<li>Webneko in the colours of Dini and Yuanyuan via <a href="https://adrianotiger.github.io/web-esheep/">web eSheep</a></li>
+<li>Tree-style archive links in sidebar</li>
+<li>Custom cursor?</li>
+<li>Investigate font rendering options to better preserve crispy pixels. Continuing on my quest to say no to anti-aliasing.</li>
+<li>Change the taskbar window buttons from button elements to spans - as they serve no functional purpose</li>
+<li>Flash of dark mode even if you select light mode</li>
+<li>Mobile layout kind of works, but you have to zoom out</li>
+<li>Dini&rsquo;s head pop&hellip; works, but the Firefox console told me I shouldn&rsquo;t be using the scroll events that I am</li>
+<li>Host on <a href="https://neocities.org/browse">Neocities</a>? Seems very nice there. I&rsquo;m not sure how I feel about my random thoughts being open source, even just the build files. HMMM&hellip;</li>
+<li>Get a https certificate! Go!</li>
+<li>Maybe an option to remove all this CSS and JS heh heh&hellip;</li>
+</ul>
+    
+  </div>
+  
+</div>
+  </article>
+
+
+
+    
+      <article class="window">
+  <div class="title-bar">
+    <div class="title-bar-text">
       <time class="date short-date" datetime="2021-08-04 16:13:59 -0400 EDT"
       >Aug ’21</time
     >
@@ -240,49 +300,12 @@
 
 
     
-      <article class="window">
-  <div class="title-bar">
-    <div class="title-bar-text">
-      <time class="date short-date" datetime="2021-08-01 13:58:00 -0400 EDT"
-      >Aug ’21</time
-    >
-    </div>
-    <div class="title-bar-controls">
-      <button aria-label="Minimize"></button>
-      <button aria-label="Maximize"></button>
-      <button aria-label="Close"></button>
-    </div>
-  </div>
-  <div class="article-list">
-
-    <h2 class="post-title"><a href="http://jordanne.ca/blog/posts/hugo/">Hugo</a></h2>
-    
-    
-
-  <div class="article-content">
-    <h2 id="hugo-command-line">Hugo command line</h2>
-<h3 id="create-a-new-site">create a new site</h3>
-<p><code>hugo new site hamstersite</code></p>
-<h3 id="adding-a-theme-from-hugo-themes">adding a theme from Hugo Themes</h3>
-<p><code>cd hamstersite/themes</code>
-<code>git clone [url of the theme]</code></p>
-<h4 id="configuring-configtoml-to-the-new-theme">configuring config.toml to the new theme</h4>
-<p><code>theme = &quot;hamstery-theme&quot;</code>
-There are probably some theme-specific options too. Check the toml config file in the example site file and copy it over.</p>
-    
-  </div>
-  
-      <a href="http://jordanne.ca/blog/posts/hugo/"><button class="read-more">Read more</button></a>
-    
-</div>
-  </article>
-
-
-
-    
     <div class="pagination">
   <span class="pagination-number">1</span> of
-  <span class="pagination-number">1</span>
+  <span class="pagination-number">2</span>
+    <a href="/blog/page/2/" class="pagination-control"
+      >Previous →</a
+    >
 </div>
 
   </main>
@@ -290,6 +313,8 @@ There are probably some theme-specific options too. Check the toml config file i
   <div class="latest-posts">
     <h3>Latest Posts</h3>
     <ul class="tree-view">
+      
+        <li><a href="/blog/posts/1998/">1998</a></li>
       
         <li><a href="/blog/posts/scratchy/">Scratchy</a></li>
       
@@ -299,8 +324,6 @@ There are probably some theme-specific options too. Check the toml config file i
       
         <li><a href="/blog/posts/for-loop/">Nested for Loop of Tiles p5.js</a></li>
       
-        <li><a href="/blog/posts/hugo/">Hugo</a></li>
-      
     </ul>
   </div>
 </aside>
@@ -309,8 +332,7 @@ There are probably some theme-specific options too. Check the toml config file i
     <div id="cont">
       <a href="#home">
       <div id="dini-wrap">
-        
-        <img src="/images/yuberry_pixel2.gif">
+        <img src="http://jordanne.ca/blog/yuberry_pixel2.gif" class="pixel">
         </div></a>
       </div>
   </div>
