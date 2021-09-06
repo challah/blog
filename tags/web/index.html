@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" type="image/png"
-    href="http://jordanne.ca/blog/favicon/favicon.png" />
+    href="http://jordanne.ca/blogfavicon/favicon.png" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     
       <meta name="description" content="The blog of Jordanne, Dini and Yuanyuan" />
@@ -36,11 +36,11 @@
           <li><a href="/blog/about">About</a></li>
         
         
-          <li><a rel="alternate" type="application/rss+xml" href="http://jordanne.ca/blog/index.xml" title="Jordanne" /> RSS </a></li>
+          <li><a rel="alternate" type="application/rss+xml" href="http://jordanne.ca/blog/index.xml" title="Jordanne"> RSS </a></li>
           <li>
             <div class="lightswitch-container">
-              <input type="checkbox" role="switch" class="btn-toggle" aria-labelledby="lightswitch-text">
-              <label id="lightswitch-text">Turn off the lights</label>
+              <input type="checkbox" role="switch" id="btn-toggle" class="btn-toggle" aria-labelledby="lightswitch-text">
+              <label id="lightswitch-text" for="btn-toggle">Turn off the lights</label>
             </div>
           </li>
       </ul>
@@ -59,14 +59,14 @@
     <article class="window">
   <div class="title-bar">
     <div class="title-bar-text">
-      <time class="date short-date" datetime="2021-08-31 21:20:32 -0400 EDT"
-      >Aug ’21</time
+      <time class="date short-date" datetime="2021-08-31"
+      >Aug &#39;21</time
     >
     </div>
     <div class="title-bar-controls">
-      <button aria-label="Minimize"></button>
-      <button aria-label="Maximize"></button>
-      <button aria-label="Close"></button>
+      <span data-label="Minimize" class="fake-button"></span>
+      <span data-label="Maximize" class="fake-button"></span>
+      <span data-label="Close" class="fake-button"></span>
     </div>
   </div>
   <div class="article-list">
@@ -143,7 +143,7 @@
   <div id="cont">
     <a href="#home">
     <div id="dini-wrap">
-      <img src="http://jordanne.ca/blog/yuberry_pixel2.gif" class="pixel">
+      <img src="http://jordanne.ca/blog/yuberry_pixel2.gif" class="pixel" alt="Dini the cat">
       </div></a>
     </div>
 </div>
