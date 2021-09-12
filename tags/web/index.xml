@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>web on Jordanne</title>
-    <link>http://jordanne.ca/blog/tags/web/</link>
+    <link>https://jordanne.ca/blog/tags/web/</link>
     <description>Recent content in web on Jordanne</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 31 Aug 2021 21:20:32 -0400</lastBuildDate><atom:link href="http://jordanne.ca/blog/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 31 Aug 2021 21:20:32 -0400</lastBuildDate><atom:link href="https://jordanne.ca/blog/tags/web/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>1998</title>
-      <link>http://jordanne.ca/blog/posts/1998/</link>
+      <link>https://jordanne.ca/blog/posts/1998/</link>
       <pubDate>Tue, 31 Aug 2021 21:20:32 -0400</pubDate>
       
-      <guid>http://jordanne.ca/blog/posts/1998/</guid>
-      <description>&lt;figure&gt;&lt;img src=&#34;http://jordanne.ca/blog/images/win98.png&#34;
+      <guid>https://jordanne.ca/blog/posts/1998/</guid>
+      <description>&lt;figure&gt;&lt;img src=&#34;https://jordanne.ca/blog/images/win98.png&#34;
          alt=&#34;Windows 98 desktop&#34;/&gt;
 &lt;/figure&gt;
 &lt;p&gt;I&amp;rsquo;ve added new CSS, adding this Windows 1998 windowed look to each post. I&amp;rsquo;ve always been really drawn to websites that look like desktops. I&amp;rsquo;ll make a true version of one of those someday.&lt;/p&gt;

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>p5 on Jordanne</title>
-    <link>http://jordanne.ca/blog/p5/</link>
+    <link>https://jordanne.ca/blog/p5/</link>
     <description>Recent content in p5 on Jordanne</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 01 Aug 2021 14:06:47 -0400</lastBuildDate><atom:link href="http://jordanne.ca/blog/p5/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 Aug 2021 14:06:47 -0400</lastBuildDate><atom:link href="https://jordanne.ca/blog/p5/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Nested for Loop of Tiles p5.js</title>
-      <link>http://jordanne.ca/blog/posts/for-loop/</link>
+      <link>https://jordanne.ca/blog/posts/for-loop/</link>
       <pubDate>Sun, 01 Aug 2021 14:06:47 -0400</pubDate>
       
-      <guid>http://jordanne.ca/blog/posts/for-loop/</guid>
+      <guid>https://jordanne.ca/blog/posts/for-loop/</guid>
       <description>&lt;p&gt;Syntax highlighting test.&lt;/p&gt;
 &lt;h2 id=&#34;ellipsemodecenter&#34;&gt;ellipseMode(CENTER)&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;color:#815ba4&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#06b6ef&#34;&gt;tileWidth&lt;/span&gt; &lt;span style=&#34;color:#5bc4bf&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#f99b15&#34;&gt;50&lt;/span&gt;;

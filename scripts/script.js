@@ -1,15 +1,15 @@
-const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
 const currentTheme = localStorage.getItem("theme");
-const btn = document.querySelector(".btn-toggle");
-const switchLabel = document.querySelector("#lightswitch-text")
+const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
+const btn = document.querySelector("#btn-toggle");
+const switchLabel = document.querySelector("#lightswitch-text");
 let theme = currentTheme;
 
 if (currentTheme == "dark") {
   document.body.classList.toggle("dark-theme");
-  changeLabel();
-} else {
+  btn.checked = false;
+} else if (currentTheme == "light") {
   document.body.classList.toggle("light-theme");
-  changeLabel();
+  btn.checked = true;
 }
 
 btn.addEventListener("click", function () {
@@ -25,20 +25,19 @@ btn.addEventListener("click", function () {
     if (document.body.classList.contains("dark-theme")) {
       theme = "dark";
     } else {
-theme = "light"
+      theme = "light";
     }
   }
   localStorage.setItem("theme", theme);
-  changeLabel()
+  changeLabel();
 });
 
 function changeLabel() {
-  console.log(theme)
+  console.log("invoked ; w ;");
+  console.log(theme);
   if (theme == "dark") {
-    switchLabel.innerHTML = "Turn on the lights"
-    btn.checked = true;
+    switchLabel.innerHTML = "Turn on the lights";
   } else {
-    switchLabel.innerHTML = "Turn off the lights"
-    btn.checked = false;
-}
+    switchLabel.innerHTML = "Turn off the lights";
+  }
 }
