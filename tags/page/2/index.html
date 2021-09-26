@@ -12,7 +12,7 @@
     
       <meta name="author" content="Jordanne Chan" />
     
-    <title>Yuannish | Jordanne
+    <title>Tags | Jordanne
     </title>
     <link
     rel="stylesheet"
@@ -49,37 +49,52 @@
 </header>
 
       
-  <main class="main">
-    <article class="article-single">
-      <div class="article-info">
-        <h1 class="post-title"><a href="/blog/posts/yuannish/">Yuannish</a></h1>
-        <time class="date full-date" datetime="2021-08-02 20:09"
-          >Aug 02, 2021.</time
-        >
-        
-          <div class="tags">
-            <ul class="tags-list">
-              
-                <li>
-                  <a href="/blog/tags/yuanyuan" class="yuanyuan">Yuanyuan</a>
-                </li>
-              
-            </ul>
-          </div>
-        
-      </div>
-      <div class="article-content">
-        <p>There&rsquo;s always someone taking care of me. It&rsquo;s her!</p>
-<figure><img src="https://jordanne.ca/blog/images/20210715_Yuan.jpg"
-         alt="Yuanyuan"/><figcaption>
-            <p>Yuanyuan watching over me</p>
-        </figcaption>
-</figure>
-      </div>
-      
-    </article>
-  </main>
-  <aside class="sidebar">
+<main>
+  
+  <div>
+    
+    <h2>Tags</h2>
+     
+  </div>
+    <article class="window">
+  <div class="title-bar">
+    <div class="title-bar-text">
+      <time class="date short-date" datetime="2021-08-01 14:06"
+      >Aug &#39;21</time
+    >
+    </div>
+    <div class="title-bar-controls">
+      <span data-label="Minimize" class="fake-button"></span>
+      <span data-label="Maximize" class="fake-button"></span>
+      <span data-label="Close" class="fake-button"></span>
+    </div>
+  </div>
+  <div class="article-list">
+
+    <h2 class="post-title"><a href="https://jordanne.ca/blog/tags/p5/">p5</a></h2>
+
+  <div class="article-content">
+    
+    
+  </div>
+  
+</div>
+<div class="status-bar">
+    
+    
+</div>
+  </article>
+
+
+  <div class="pagination">
+    <a href="/blog/tags/" class="pagination-control">← Next</a>
+  
+  <span class="pagination-number">2</span> of
+  <span class="pagination-number">2</span>
+</div>
+
+</main>
+<aside class="sidebar">
   <div class="latest-posts">
     <h3>Latest Posts</h3>
     <ul class="tree-view">
@@ -97,7 +112,43 @@
     </ul>
   </div>
 </aside>
-
+ 
+<div id="head">
+  <div id="cont">
+    <a href="#home">
+    <div id="dini-wrap">
+      <img src="https://jordanne.ca/blog/yuberry_pixel2.gif" class="pixel" alt="Dini the cat">
+      </div></a>
+    </div>
+</div>
+<script>
+  window.onbeforeunload = function() {
+    window.scrollTo(0, 0);
+  };
+  
+  let prevScrollpos = window.pageYOffset;
+  let show = "no";
+  window.onscroll = function() {
+    let currentScrollPos = window.pageYOffset;
+    if (prevScrollpos > currentScrollPos) {
+      
+      document.getElementById("head").style.bottom = "-110px";
+      if (show === "yes") {
+        show = "no";
+      }
+    }
+    prevScrollpos = currentScrollPos;
+    let bottom = document.body.offsetHeight;
+    let almostBottom = bottom * 0.8;
+    if (window.innerHeight + window.scrollY >= almostBottom) {
+    }
+    if (window.innerHeight + window.scrollY >= bottom * 0.97) {
+      document.getElementById("head").style.bottom = "-5px";
+      
+      show = "yes";
+    }
+  };
+  </script>
 
       <footer class="footer">
   <p>
@@ -106,8 +157,6 @@
 </footer><script src="https://jordanne.ca/blog/scripts/script.js"></script>
 
 
-
-  
 
 
     </div>

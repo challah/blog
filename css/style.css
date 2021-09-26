@@ -345,6 +345,7 @@ option,
 select,
 textarea,
 ul.tree-view,
+.status-bar,
 .tags a {
   font-smooth: never;
   -webkit-font-smoothing: none;
@@ -453,9 +454,9 @@ button:disabled {
 }
 
 .title-bar-text {
-  font-weight: 700;
   color: #fff;
   letter-spacing: 0;
+  padding-left: 1rem;
   margin-right: 24px;
 }
 
@@ -529,6 +530,24 @@ button:disabled {
   background-repeat: no-repeat;
   background-position: top 6px left 8px;
   background-size: 16px 14px;
+}
+
+.status-bar {
+  margin: 0 1px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1px;
+}
+
+.status-bar-field {
+  -webkit-box-shadow: inset -1px -1px #dfdfdf, inset 1px 1px grey;
+          box-shadow: inset -1px -1px #dfdfdf, inset 1px 1px grey;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  padding: 2px 3px;
+  margin: 0;
 }
 
 ul.tree-view {
@@ -740,6 +759,10 @@ code {
 
 .date.full-date {
   font-style: italic;
+}
+
+figure {
+  width: 100%;
 }
 
 .lightswitch-container {

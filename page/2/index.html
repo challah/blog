@@ -58,7 +58,57 @@
       <article class="window">
   <div class="title-bar">
     <div class="title-bar-text">
-      <time class="date short-date" datetime="2021-08-01"
+      <time class="date short-date" datetime="2021-08-01 14:06"
+      >Aug &#39;21</time
+    >
+    </div>
+    <div class="title-bar-controls">
+      <span data-label="Minimize" class="fake-button"></span>
+      <span data-label="Maximize" class="fake-button"></span>
+      <span data-label="Close" class="fake-button"></span>
+    </div>
+  </div>
+  <div class="article-list">
+
+    <h2 class="post-title"><a href="https://jordanne.ca/blog/posts/for-loop/">Nested for Loop of Tiles p5.js</a></h2>
+
+  <div class="article-content">
+    <p>Syntax highlighting test.</p>
+<h2 id="ellipsemodecenter">ellipseMode(CENTER)</h2>
+<div class="highlight"><pre tabindex="0" style="color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#815ba4">let</span> <span style="color:#06b6ef">tileWidth</span> <span style="color:#5bc4bf">=</span> <span style="color:#f99b15">50</span>;
+
+<span style="color:#815ba4">for</span> (<span style="color:#815ba4">let</span> <span style="color:#06b6ef">j</span> <span style="color:#5bc4bf">=</span> <span style="color:#f99b15">0</span>; <span style="color:#06b6ef">j</span> <span style="color:#5bc4bf">&lt;</span> <span style="color:#06b6ef">height</span> <span style="color:#5bc4bf">/</span> <span style="color:#06b6ef">tileWidth</span>; <span style="color:#06b6ef">j</span><span style="color:#5bc4bf">++</span>) {
+  <span style="color:#815ba4">for</span> (<span style="color:#815ba4">let</span> <span style="color:#06b6ef">i</span> <span style="color:#5bc4bf">=</span> <span style="color:#f99b15">0</span>; <span style="color:#06b6ef">i</span> <span style="color:#5bc4bf">&lt;</span> <span style="color:#06b6ef">width</span> <span style="color:#5bc4bf">/</span> <span style="color:#06b6ef">tileWidth</span>; <span style="color:#06b6ef">i</span><span style="color:#5bc4bf">++</span>) {
+    <span style="color:#06b6ef">circle</span>(
+      <span style="color:#06b6ef">i</span> <span style="color:#5bc4bf">*</span> <span style="color:#06b6ef">tileWidth</span> <span style="color:#5bc4bf">+</span> <span style="color:#06b6ef">tileWidth</span> <span style="color:#5bc4bf">/</span> <span style="color:#f99b15">2</span>,
+      <span style="color:#06b6ef">j</span> <span style="color:#5bc4bf">*</span> <span style="color:#06b6ef">tileWidth</span> <span style="color:#5bc4bf">+</span> <span style="color:#06b6ef">tileWidth</span> <span style="color:#5bc4bf">/</span> <span style="color:#f99b15">2</span>,
+      <span style="color:#06b6ef">tileWidth</span>
+    );
+  }
+}
+</code></pre></div>
+    
+  </div>
+  
+</div>
+<div class="status-bar">
+    
+      <span class="status-bar-field">
+        <a href="/tags/p5/"
+          ><strong>p5</strong></a>
+      </span>
+    
+    
+</div>
+  </article>
+
+
+
+    
+      <article class="window">
+  <div class="title-bar">
+    <div class="title-bar-text">
+      <time class="date short-date" datetime="2021-08-01 13:58"
       >Aug &#39;21</time
     >
     </div>
@@ -71,8 +121,6 @@
   <div class="article-list">
 
     <h2 class="post-title"><a href="https://jordanne.ca/blog/posts/hugo/">Hugo</a></h2>
-    
-    
 
   <div class="article-content">
     <h2 id="hugo-command-line">Hugo command line</h2>
@@ -88,6 +136,10 @@ There are probably some theme-specific options too. Check the toml config file i
   </div>
   
       <a href="https://jordanne.ca/blog/posts/hugo/"><button class="read-more">Read more</button></a>
+    
+</div>
+<div class="status-bar">
+    
     
 </div>
   </article>
@@ -108,6 +160,8 @@ There are probably some theme-specific options too. Check the toml config file i
     <h3>Latest Posts</h3>
     <ul class="tree-view">
       
+        <li><a href="/blog/posts/everything-for-cat/">Everything for Cat</a></li>
+      
         <li><a href="/blog/posts/1998/">1998</a></li>
       
         <li><a href="/blog/posts/scratchy/">Scratchy</a></li>
@@ -115,8 +169,6 @@ There are probably some theme-specific options too. Check the toml config file i
         <li><a href="/blog/posts/dinis_here/">Dini&#39;s here</a></li>
       
         <li><a href="/blog/posts/yuannish/">Yuannish</a></li>
-      
-        <li><a href="/blog/posts/for-loop/">Nested for Loop of Tiles p5.js</a></li>
       
     </ul>
   </div>
@@ -130,6 +182,7 @@ There are probably some theme-specific options too. Check the toml config file i
         </div></a>
       </div>
   </div>
+
   <script>
     window.onbeforeunload = function() {
       window.scrollTo(0, 0);
