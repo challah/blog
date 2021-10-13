@@ -41,3 +41,23 @@ function changeLabel() {
     switchLabel.innerHTML = "Turn off the lights";
   }
 }
+
+
+// CLOCK -------------------------
+function startTime() {
+  const today = new Date();
+  let h = today.getHours();
+  let m = today.getMinutes();
+  m = checkTime(m);
+  document.querySelector(".time").innerHTML = h + ":" + m;
+  setTimeout(startTime, 1000);
+}
+
+function checkTime(i) {
+  if (i < 10) {
+    i = "0" + i;
+  }
+  return i;
+}
+
+document.body.onload = startTime();

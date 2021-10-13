@@ -345,9 +345,19 @@ article.window {
   color: #ee2299;
 }
 
+::root {
+  --hue: 325deg;
+  --saturation: 85.71429%;
+}
+
 @font-face {
   font-family: "Nintendo DS BIOS";
   src: url(../fonts/Nintendo-DS-BIOS.ttf);
+}
+
+@font-face {
+  font-family: "Nintendo DS BIOS";
+  src: url(../Nintendo-DS-BIOS.ttf);
 }
 
 .title-bar,
@@ -370,8 +380,8 @@ ul.tree-view,
 .article-list > .article-content {
   display: block;
   background: var(--background);
-  -webkit-box-shadow: inset -1px -1px #fff, inset 1px 1px grey, inset -2px -2px #dfdfdf, inset 2px 2px #0a0a0a;
-          box-shadow: inset -1px -1px #fff, inset 1px 1px grey, inset -2px -2px #dfdfdf, inset 2px 2px #0a0a0a;
+  -webkit-box-shadow: inset -1px -1px #fff, inset 1px 1px #9f6085, inset -1px -1px #ded3da, inset 2px 2px #402635;
+          box-shadow: inset -1px -1px #fff, inset 1px 1px #9f6085, inset -1px -1px #ded3da, inset 2px 2px #402635;
   padding: 6px;
   margin: 0;
 }
@@ -384,6 +394,9 @@ button {
   min-width: 75px;
   min-height: 23px;
   padding: 0 12px;
+  background: #ebbcd8;
+  -webkit-box-shadow: inset -1px -1px #402635, inset 1px 1px #fff, inset -2px -2px #9f6085, inset 2px 2px #ded3da;
+          box-shadow: inset -1px -1px #402635, inset 1px 1px #fff, inset -2px -2px #9f6085, inset 2px 2px #ded3da;
 }
 
 button.read-more {
@@ -395,17 +408,9 @@ button.read-more:hover {
   cursor: pointer;
 }
 
-.vertical-bar,
-button {
-  background: #ffd3ee;
-  -webkit-box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -2px -2px grey, inset 2px 2px #dfdfdf;
-          box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -2px -2px grey, inset 2px 2px #dfdfdf;
-}
-
 button:not(:disabled):active {
   -webkit-box-shadow: inset -1px -1px #fff, inset 1px 1px #0a0a0a, inset -2px -2px #dfdfdf, inset 2px 2px grey;
           box-shadow: inset -1px -1px #fff, inset 1px 1px #0a0a0a, inset -2px -2px #dfdfdf, inset 2px 2px grey;
-  padding: 2px 11px 0 13px;
 }
 
 @media (false) {
@@ -435,9 +440,9 @@ button:disabled {
 }
 
 .window {
-  -webkit-box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #dfdfdf, inset -2px -2px grey, inset 2px 2px #fff;
-          box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #dfdfdf, inset -2px -2px grey, inset 2px 2px #fff;
-  background: #ffd3ee;
+  -webkit-box-shadow: inset -1px -1px #402635, inset 1px 1px #fff, inset -2px -2px #9f6085, inset 2px 2px #ded3da;
+          box-shadow: inset -1px -1px #402635, inset 1px 1px #fff, inset -2px -2px #9f6085, inset 2px 2px #ded3da;
+  background: #ebbcd8;
   padding: 3px;
 }
 
@@ -447,8 +452,9 @@ button:disabled {
 }
 
 .title-bar {
-  background: -webkit-gradient(linear, left top, right top, from(#f251af), color-stop(50%, #ff1111), to(#ff7700));
-  background: linear-gradient(90deg, #f251af 0%, #ff1111 50%, #ff7700 100%);
+  background: #ee2299;
+  background: -webkit-gradient(linear, left top, right top, from(#ee2299), color-stop(#ff1111), to(#ff7700));
+  background: linear-gradient(90deg, #ee2299, #ff1111, #ff7700);
   padding: 3px 2px 3px 3px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -467,6 +473,7 @@ button:disabled {
 }
 
 .title-bar-text {
+  font-weight: normal;
   color: #fff;
   letter-spacing: 0;
   padding-left: 1rem;
@@ -491,17 +498,16 @@ button:disabled {
 .title-bar-controls .fake-button {
   padding: 0;
   display: block;
+  background: #ebbcd8;
   min-width: 32px;
   min-height: 28px;
-  background: #ffd3ee;
-  -webkit-box-shadow: inset -2px -2px #0a0a0a, inset 2px 2px #fff, inset -4px -4px grey, inset 4px 4px #dfdfdf;
-          box-shadow: inset -2px -2px #0a0a0a, inset 2px 2px #fff, inset -4px -4px grey, inset 4px 4px #dfdfdf;
+  -webkit-box-shadow: inset -2px -2px #402635, inset 2px 2px #fff, inset -4px -4px #9f6085, inset 4px 4px #ded3da;
+          box-shadow: inset -2px -2px #402635, inset 2px 2px #fff, inset -4px -4px #9f6085, inset 4px 4px #ded3da;
 }
 
 .fake-button:active {
-  -webkit-box-shadow: inset -1px -1px #fff, inset 1px 1px #0a0a0a, inset -2px -2px #dfdfdf, inset 2px 2px grey;
-          box-shadow: inset -1px -1px #fff, inset 1px 1px #0a0a0a, inset -2px -2px #dfdfdf, inset 2px 2px grey;
-  padding: 2px 11px 0 13px;
+  -webkit-box-shadow: inset -2px -2px #fff, inset 2px 2px #402635, inset -2px -2px #ded3da, inset 4px 4px #9f6085;
+          box-shadow: inset -2px -2px #fff, inset 2px 2px #402635, inset -2px -2px #ded3da, inset 4px 4px #9f6085;
 }
 
 .title-bar-controls button:active {
@@ -529,13 +535,15 @@ button:disabled {
 .title-bar-controls [data-label="Restore"] {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='8' height='9' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='%23000' d='M2 0h6v2H2zM7 2h1v4H7zM2 2h1v1H2zM6 5h1v1H6zM0 3h6v2H0zM5 5h1v4H5zM0 5h1v4H0zM1 8h4v1H1z'/%3E%3C/svg%3E");
   background-repeat: no-repeat;
-  background-position: top 2px left 3px;
+  background-position: top 4px left 6px;
+  background-size: 16px 18px;
 }
 
 .title-bar-controls [data-label="Help"] {
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='6' height='9' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill='%23000' d='M0 1h2v2H0zM1 0h4v1H1zM4 1h2v2H4zM3 3h2v1H3zM2 4h2v2H2zM2 7h2v2H2z'/%3E%3C/svg%3E");
   background-repeat: no-repeat;
-  background-position: top 2px left 5px;
+  background-position: top 4px left 10px;
+  background-size: 12px 18px;
 }
 
 .title-bar-controls [data-label="Close"] {
@@ -639,23 +647,90 @@ ul.tree-view details[open] > summary:before {
   content: "-";
 }
 
-.latest-posts a {
-  text-decoration: none;
-  color: #000;
-  display: block;
-  padding: 0.5rem;
-  padding-left: 1rem;
-}
-
-.latest-posts a:hover, .latest-posts a:focus {
-  background-color: #ee2299;
-  color: #fff;
-}
-
-.latest-posts ul.tree-view li,
-.latest-posts ul.tree-view {
-  margin: 0;
+.dropbtn {
+  position: fixed;
+  bottom: 2px;
+  left: 2px;
+  background-color: #ff7700;
+  color: white;
   padding: 0;
+  font-size: 24px;
+  border: none;
+  height: 32px;
+  width: 100px;
+  z-index: 1;
+}
+
+.dropup {
+  position: relative;
+  display: inline-block;
+}
+
+.dropup-content {
+  display: none;
+  width: 100px;
+  position: fixed;
+  background-color: #f1f1f1;
+  left: 0px;
+  bottom: calc(32px + 2px);
+  z-index: 2;
+}
+
+.dropup-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropup-content a:hover {
+  background-color: #ee2299;
+  color: #fefefe;
+}
+
+.dropup:hover .dropup-content {
+  display: block;
+}
+
+.dropup:hover .dropbtn {
+  -webkit-box-shadow: inset -1px -1px #fff, inset 1px 1px #0a0a0a, inset -2px -2px #dfdfdf, inset 2px 2px grey;
+          box-shadow: inset -1px -1px #fff, inset 1px 1px #0a0a0a, inset -2px -2px #dfdfdf, inset 2px 2px grey;
+  outline: 1px dotted #000;
+  outline-offset: -4px;
+}
+
+.taskbar {
+  z-index: 3;
+  background-color: #ebbcd8;
+  width: 100%;
+  height: calc(32px + 4px);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  border-top: 2px solid #ded3da;
+}
+
+.time {
+  font-size: 24px;
+  background-color: #ebbcd8;
+  font-family: 'Nintendo DS BIOS', monospace;
+  color: #222222;
+  position: fixed;
+  bottom: 2px;
+  right: 2px;
+  height: calc(32px - 2px);
+  width: calc(100px - 2px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-shadow: inset -1px -1px #fff, inset 1px 1px #9f6085, inset -1px -1px #ded3da, inset 2px 2px #402635;
+          box-shadow: inset -1px -1px #fff, inset 1px 1px #9f6085, inset -1px -1px #ded3da, inset 2px 2px #402635;
 }
 
 /* Global styles */
@@ -774,6 +849,25 @@ code {
   font-style: italic;
 }
 
+.latest-posts a {
+  text-decoration: none;
+  color: #000;
+  display: block;
+  padding: 0.5rem;
+  padding-left: 1rem;
+}
+
+.latest-posts a:hover, .latest-posts a:focus {
+  background-color: #ee2299;
+  color: #fff;
+}
+
+.latest-posts ul.tree-view li,
+.latest-posts ul.tree-view {
+  margin: 0;
+  padding: 0;
+}
+
 .lightswitch-container {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -877,7 +971,7 @@ WONDERFUL HEAD */
   bottom: -110px;
   -webkit-transition: bottom 0.5s;
   transition: bottom 0.5s;
-  z-index: 666;
+  z-index: 2;
   pointer-events: none;
 }
 
