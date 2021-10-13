@@ -345,6 +345,8 @@ article.window {
   color: #ee2299;
 }
 
+/* CONFIG
+-----------------------------------------*/
 ::root {
   --hue: 325deg;
   --saturation: 85.71429%;
@@ -355,6 +357,8 @@ article.window {
   src: url(../fonts/Nintendo-DS-BIOS.ttf);
 }
 
+/* MIXINS
+-----------------------------------------*/
 @font-face {
   font-family: "Nintendo DS BIOS";
   src: url(../Nintendo-DS-BIOS.ttf);
@@ -375,15 +379,6 @@ ul.tree-view,
   font-family: "Nintendo DS BIOS", Arial;
   font-size: 24px;
   font-weight: normal;
-}
-
-.article-list > .article-content {
-  display: block;
-  background: var(--background);
-  -webkit-box-shadow: inset -1px -1px #fff, inset 1px 1px #9f6085, inset -1px -1px #ded3da, inset 2px 2px #402635;
-          box-shadow: inset -1px -1px #fff, inset 1px 1px #9f6085, inset -1px -1px #ded3da, inset 2px 2px #402635;
-  padding: 6px;
-  margin: 0;
 }
 
 button {
@@ -439,6 +434,8 @@ button:disabled {
   text-shadow: 1px 1px 0 #fff;
 }
 
+/* WINDOW CONTENT
+-----------------------------------------*/
 .window {
   -webkit-box-shadow: inset -1px -1px #402635, inset 1px 1px #fff, inset -2px -2px #9f6085, inset 2px 2px #ded3da;
           box-shadow: inset -1px -1px #402635, inset 1px 1px #fff, inset -2px -2px #9f6085, inset 2px 2px #ded3da;
@@ -451,6 +448,17 @@ button:disabled {
   margin-right: 1rem;
 }
 
+.article-list > .article-content {
+  display: block;
+  background: var(--background);
+  -webkit-box-shadow: inset -1px -1px #fff, inset 1px 1px #9f6085, inset -1px -1px #ded3da, inset 2px 2px #402635;
+          box-shadow: inset -1px -1px #fff, inset 1px 1px #9f6085, inset -1px -1px #ded3da, inset 2px 2px #402635;
+  padding: 6px;
+  margin: 0;
+}
+
+/* TITLE BAR
+-----------------------------------------*/
 .title-bar {
   background: #ee2299;
   background: -webkit-gradient(linear, left top, right top, from(#ee2299), color-stop(#ff1111), to(#ff7700));
@@ -553,6 +561,8 @@ button:disabled {
   background-size: 16px 14px;
 }
 
+/* STATUS BAR
+-----------------------------------------*/
 .status-bar {
   margin: 0 2px;
   display: -webkit-box;
@@ -571,6 +581,8 @@ button:disabled {
   margin: 0;
 }
 
+/* TREE VIEW
+-----------------------------------------*/
 ul.tree-view {
   display: block;
   background: #fff;
@@ -647,6 +659,8 @@ ul.tree-view details[open] > summary:before {
   content: "-";
 }
 
+/* TASK BAR
+-----------------------------------------*/
 .dropbtn {
   position: fixed;
   bottom: 2px;

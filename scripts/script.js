@@ -1,3 +1,36 @@
+
+/* WONDERFUL HEAD
+-----------------------------------------*/
+window.onbeforeunload = function() {
+  window.scrollTo(0, 0);
+};
+
+let prevScrollpos = window.pageYOffset;
+let show = "no";
+window.onscroll = function() {
+  let currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    // let headTopInterval = clearInterval(headTop);
+    document.getElementById("head").style.bottom = "-110px";
+    if (show === "yes") {
+      show = "no";
+    }
+  }
+  prevScrollpos = currentScrollPos;
+  let bottom = document.body.offsetHeight;
+  let almostBottom = bottom * 0.8;
+  if (window.innerHeight + window.scrollY >= almostBottom) {
+  }
+  if (window.innerHeight + window.scrollY >= bottom * 0.97) {
+    document.getElementById("head").style.bottom = "-5px";
+    // headTopInterval = setInterval(headTop, 2000);
+    show = "yes";
+  }
+};
+
+/* DARK MODE TOGGLE
+-----------------------------------------*/
+
 const currentTheme = localStorage.getItem("theme");
 const prefersDarkScheme = window.matchMedia("(prefers-color-scheme: dark)");
 const btn = document.querySelector("#btn-toggle");
@@ -41,7 +74,6 @@ function changeLabel() {
     switchLabel.innerHTML = "Turn off the lights";
   }
 }
-
 
 // CLOCK -------------------------
 function startTime() {

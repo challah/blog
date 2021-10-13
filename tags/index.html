@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" type="image/png"
-    href="https://jordanne.ca/blogfavicon/favicon.png" />
+    href="https://jordanne.ca/blog/favicon/favicon.png" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     
       <meta name="description" content="The blog of Jordanne, Dini and Yuanyuan" />
@@ -248,35 +248,6 @@
       </div></a>
     </div>
 </div>
-
-<script>
-  window.onbeforeunload = function() {
-    window.scrollTo(0, 0);
-  };
-  
-  let prevScrollpos = window.pageYOffset;
-  let show = "no";
-  window.onscroll = function() {
-    let currentScrollPos = window.pageYOffset;
-    if (prevScrollpos > currentScrollPos) {
-      
-      document.getElementById("head").style.bottom = "-110px";
-      if (show === "yes") {
-        show = "no";
-      }
-    }
-    prevScrollpos = currentScrollPos;
-    let bottom = document.body.offsetHeight;
-    let almostBottom = bottom * 0.8;
-    if (window.innerHeight + window.scrollY >= almostBottom) {
-    }
-    if (window.innerHeight + window.scrollY >= bottom * 0.97) {
-      document.getElementById("head").style.bottom = "-5px";
-      
-      show = "yes";
-    }
-  };
-  </script>
 
       <footer class="footer">
   <p>
