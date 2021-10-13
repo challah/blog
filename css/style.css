@@ -564,6 +564,7 @@ button:disabled {
 /* STATUS BAR
 -----------------------------------------*/
 .status-bar {
+  color: #222222;
   margin: 0 2px;
   display: -webkit-box;
   display: -ms-flexbox;
