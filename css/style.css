@@ -454,7 +454,7 @@ button:disabled {
   -webkit-box-shadow: inset -1px -1px #fff, inset 1px 1px #9f6085, inset -1px -1px #ded3da, inset 2px 2px #402635;
           box-shadow: inset -1px -1px #fff, inset 1px 1px #9f6085, inset -1px -1px #ded3da, inset 2px 2px #402635;
   padding: 6px;
-  margin: 0;
+  margin: 10px;
 }
 
 /* TITLE BAR
