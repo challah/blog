@@ -6,11 +6,11 @@
     <description>Recent content in Tags on Jordanne</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 13 Sep 2021 00:48:30 -0400</lastBuildDate><atom:link href="https://jordanne.ca/blog/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Nov 2021 10:27:15 -0500</lastBuildDate><atom:link href="https://jordanne.ca/blog/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>cats</title>
       <link>https://jordanne.ca/blog/tags/cats/</link>
-      <pubDate>Mon, 13 Sep 2021 00:48:30 -0400</pubDate>
+      <pubDate>Fri, 12 Nov 2021 10:27:15 -0500</pubDate>
       
       <guid>https://jordanne.ca/blog/tags/cats/</guid>
       <description></description>
@@ -31,6 +31,15 @@
       <pubDate>Wed, 04 Aug 2021 16:13:59 -0400</pubDate>
       
       <guid>https://jordanne.ca/blog/tags/scratch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://jordanne.ca/blog/tags/test/</link>
+      <pubDate>Wed, 04 Aug 2021 16:13:59 -0400</pubDate>
+      
+      <guid>https://jordanne.ca/blog/tags/test/</guid>
       <description></description>
     </item>
     

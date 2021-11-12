@@ -359,11 +359,6 @@ article.window {
 
 /* MIXINS
 -----------------------------------------*/
-@font-face {
-  font-family: "Nintendo DS BIOS";
-  src: url(../Nintendo-DS-BIOS.ttf);
-}
-
 .title-bar,
 button,
 input,

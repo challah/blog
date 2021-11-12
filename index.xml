@@ -6,23 +6,36 @@
     <description>Recent content in Home on Jordanne</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 13 Sep 2021 00:48:30 -0400</lastBuildDate><atom:link href="https://jordanne.ca/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Nov 2021 10:27:15 -0500</lastBuildDate><atom:link href="https://jordanne.ca/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Paw Tricks</title>
+      <link>https://jordanne.ca/blog/paw-tricks/</link>
+      <pubDate>Fri, 12 Nov 2021 10:27:15 -0500</pubDate>
+      
+      <guid>https://jordanne.ca/blog/paw-tricks/</guid>
+      <description>&lt;figure&gt;&lt;img src=&#34;https://jordanne.ca/blog/images/20211108_snackies.png&#34;
+         alt=&#34;drawing of cats receiving snacks&#34;/&gt;
+&lt;/figure&gt;
+&lt;p&gt;I’ve trained my cats to sit in clementine boxes to receive snacks. Sometimes they sit there expectantly, a little too well - I can’t help but give in. The next part is them giving me one paw to receive a snack. Again, they do this a little TOO well - the paws are very assertive.&lt;/p&gt;
+&lt;p&gt;Anyway, it’s clear who has really trained who here.&lt;/p&gt;</description>
+    </item>
+    
     <item>
       <title>Everything for Cat</title>
-      <link>https://jordanne.ca/blog/posts/everything-for-cat/</link>
+      <link>https://jordanne.ca/blog/everything-for-cat/</link>
       <pubDate>Mon, 13 Sep 2021 00:48:30 -0400</pubDate>
       
-      <guid>https://jordanne.ca/blog/posts/everything-for-cat/</guid>
+      <guid>https://jordanne.ca/blog/everything-for-cat/</guid>
       <description>&lt;p&gt;Lately, my life has been 1000% cat. I&amp;rsquo;ve come across a cat colony in a nearby residential area and I have some mixed feelings about it. There are around 30 cats that I&amp;rsquo;ve identified, and there are definitely more that are more elusive.&lt;/p&gt;
 &lt;p&gt;Cute and concerning cat photos under the cut.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>1998</title>
-      <link>https://jordanne.ca/blog/posts/1998/</link>
+      <link>https://jordanne.ca/blog/1998/</link>
       <pubDate>Tue, 31 Aug 2021 21:20:32 -0400</pubDate>
       
-      <guid>https://jordanne.ca/blog/posts/1998/</guid>
+      <guid>https://jordanne.ca/blog/1998/</guid>
       <description>&lt;figure&gt;&lt;img src=&#34;https://jordanne.ca/blog/images/win98.png&#34;
          alt=&#34;Windows 98 desktop&#34;/&gt;
 &lt;/figure&gt;
@@ -33,19 +46,19 @@
     
     <item>
       <title>Scratchy</title>
-      <link>https://jordanne.ca/blog/posts/scratchy/</link>
+      <link>https://jordanne.ca/blog/scratchy/</link>
       <pubDate>Wed, 04 Aug 2021 16:13:59 -0400</pubDate>
       
-      <guid>https://jordanne.ca/blog/posts/scratchy/</guid>
+      <guid>https://jordanne.ca/blog/scratchy/</guid>
       <description>&lt;p&gt;Check out the Scratch blocks under the cut.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Dini&#39;s here</title>
-      <link>https://jordanne.ca/blog/posts/dinis_here/</link>
+      <link>https://jordanne.ca/blog/dinis-here/</link>
       <pubDate>Tue, 03 Aug 2021 09:25:02 -0400</pubDate>
       
-      <guid>https://jordanne.ca/blog/posts/dinis_here/</guid>
+      <guid>https://jordanne.ca/blog/dinis-here/</guid>
       <description>&lt;p&gt;She&amp;rsquo;s everything to me.
 &lt;figure&gt;&lt;img src=&#34;https://jordanne.ca/blog/images/20210711_Dini.jpg&#34;
          alt=&#34;Dini&#34;/&gt;&lt;figcaption&gt;
@@ -56,10 +69,10 @@
     
     <item>
       <title>Yuannish</title>
-      <link>https://jordanne.ca/blog/posts/yuannish/</link>
+      <link>https://jordanne.ca/blog/yuannish/</link>
       <pubDate>Mon, 02 Aug 2021 20:09:18 -0400</pubDate>
       
-      <guid>https://jordanne.ca/blog/posts/yuannish/</guid>
+      <guid>https://jordanne.ca/blog/yuannish/</guid>
       <description>&lt;p&gt;There&amp;rsquo;s always someone taking care of me. It&amp;rsquo;s her!&lt;/p&gt;
 &lt;figure&gt;&lt;img src=&#34;https://jordanne.ca/blog/images/20210715_Yuan.jpg&#34;
          alt=&#34;Yuanyuan&#34;/&gt;&lt;figcaption&gt;
@@ -70,10 +83,10 @@
     
     <item>
       <title>Nested for Loop of Tiles p5.js</title>
-      <link>https://jordanne.ca/blog/posts/for-loop/</link>
+      <link>https://jordanne.ca/blog/nested-for-loop-of-tiles-p5.js/</link>
       <pubDate>Sun, 01 Aug 2021 14:06:47 -0400</pubDate>
       
-      <guid>https://jordanne.ca/blog/posts/for-loop/</guid>
+      <guid>https://jordanne.ca/blog/nested-for-loop-of-tiles-p5.js/</guid>
       <description>&lt;p&gt;Syntax highlighting test.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;color:#815ba4&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#06b6ef&#34;&gt;tileWidth&lt;/span&gt; &lt;span style=&#34;color:#5bc4bf&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#f99b15&#34;&gt;50&lt;/span&gt;;
 
@@ -91,10 +104,10 @@
     
     <item>
       <title>Hugo</title>
-      <link>https://jordanne.ca/blog/posts/hugo/</link>
+      <link>https://jordanne.ca/blog/hugo/</link>
       <pubDate>Sun, 01 Aug 2021 13:58:00 -0400</pubDate>
       
-      <guid>https://jordanne.ca/blog/posts/hugo/</guid>
+      <guid>https://jordanne.ca/blog/hugo/</guid>
       <description>&lt;h2 id=&#34;hugo-command-line&#34;&gt;Hugo command line&lt;/h2&gt;
 &lt;h3 id=&#34;create-a-new-site&#34;&gt;create a new site&lt;/h3&gt;
 &lt;p&gt;&lt;code&gt;hugo new site hamstersite&lt;/code&gt;&lt;/p&gt;

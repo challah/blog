@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Scratch on Jordanne</title>
-    <link>https://jordanne.ca/blog/tags/scratch/</link>
-    <description>Recent content in Scratch on Jordanne</description>
+    <title>test on Jordanne</title>
+    <link>https://jordanne.ca/blog/tags/test/</link>
+    <description>Recent content in test on Jordanne</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 04 Aug 2021 16:13:59 -0400</lastBuildDate><atom:link href="https://jordanne.ca/blog/tags/scratch/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 04 Aug 2021 16:13:59 -0400</lastBuildDate><atom:link href="https://jordanne.ca/blog/tags/test/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Scratchy</title>
       <link>https://jordanne.ca/blog/scratchy/</link>

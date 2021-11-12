@@ -9,10 +9,10 @@
     <lastBuildDate>Sun, 01 Aug 2021 14:06:47 -0400</lastBuildDate><atom:link href="https://jordanne.ca/blog/p5/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Nested for Loop of Tiles p5.js</title>
-      <link>https://jordanne.ca/blog/posts/for-loop/</link>
+      <link>https://jordanne.ca/blog/nested-for-loop-of-tiles-p5.js/</link>
       <pubDate>Sun, 01 Aug 2021 14:06:47 -0400</pubDate>
       
-      <guid>https://jordanne.ca/blog/posts/for-loop/</guid>
+      <guid>https://jordanne.ca/blog/nested-for-loop-of-tiles-p5.js/</guid>
       <description>&lt;p&gt;Syntax highlighting test.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#e7e9db;background-color:#2f1e2e;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-javascript&#34; data-lang=&#34;javascript&#34;&gt;&lt;span style=&#34;color:#815ba4&#34;&gt;let&lt;/span&gt; &lt;span style=&#34;color:#06b6ef&#34;&gt;tileWidth&lt;/span&gt; &lt;span style=&#34;color:#5bc4bf&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#f99b15&#34;&gt;50&lt;/span&gt;;
 
